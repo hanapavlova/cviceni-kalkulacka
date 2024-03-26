@@ -12,7 +12,7 @@ const handleDigitClick = (event) => {
         }
 }
 
-const keypadButtons = document.querySelectorAll(".keypad")
+const keypadButtons = document.querySelectorAll(".btn-num")
 keypadButtons.forEach(button => {
     button.addEventListener("click", handleDigitClick)
 })
